@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Ejemplo formularios</h1>
+    <form action="gestionar.php" method="get" name="formulario1">
+        <p>
+        <label> Nombre: 
+        <input type="text" name="nombre" placeholder="Nombre" maxlength="10"/>
+        </label>
+        <p></p>
+        <label> Fecha de nacimiento: 
+        <input type="date" name="nacimiento" placeholder="Nacimiento"/>
+        </label>
+        <p></p>
+        <label> Horas de juego: 
+        <input type="number" name="nhoras" placeholder="Horas" title="Horas diarias videojuegos"/>
+        </label>
+        <p></p>
+        <label> Email: 
+        <input type="email" name="email" placeholder="Email"/>
+        </label>
+        </p>
+
+        <p>
+            <b><label>Videoconsolas:</b>
+            <input type="checkbox" name="vc1" value="PS"/> PlayStation
+            <input type="checkbox" name="vc2" value="XB"/> XBOX
+            <input type="checkbox" name="vc3" value="PC"/> PC
+            <input type="checkbox" name="vc4" value="PSP"/> PSP
+            </label>
+        </p>
+
+        <p>
+            <b><label>Elige juego preferido:</b>
+            <input type="radio" name="juego" value="CB"/> Crash Bandicoot
+            <input type="radio" name="juego" value="RE"/> Resident Evil
+            <input type="radio" name="juego" value="LOL"/> League of Legends
+            <input type="radio" name="juego" value="AOE"/> Age of empires
+            </label>
+        </p>
+        <textarea name="descripcion" cols="30" rows="10">Descripción</textarea>
+
+        <select name="grupos" id="">
+            <option value="1">1DAW</option>
+            <option value="2">2DAW</option>
+            <option value="3">1ASIR</option>
+            <option value="4">2ASIR</option>
+        </select>
+
+        <p>
+        <input type="submit" name="submit" value="Enviar"/>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores por atributos</title>
+    <style>
+        p[name] {
+            background-color: red;
+        }
+        p[name="p2"] {
+            background-color: green;
+        }
+        p[name~="papa"] {
+            background-color: blue;
+        }
+        p[name^="quien"] {
+            background-color: orange;
+        }
+        p[name$="patrimonio"] {
+            background-color: pink;
+        }
+        p[name*="pan"] {
+            background-color: indigo;
+        }
+    </style>
+
+
+</head>
+<body>
+    <a href="index.html">Volver</a>
+    <h1>Ejemplos selectores atributos</h1>
+    <p name>p1</p>
+    <p name="p2">p2</p>
+    <p name="hola papa">p3</p>
+    <p name="quiensabe">p4</p>
+    <p name="Córdoba patrimonio">p5</p>
+    <p name="fui a por pan a tienda">p6</p>
+</body>
+</html>
