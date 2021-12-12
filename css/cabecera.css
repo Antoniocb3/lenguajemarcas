@@ -1,0 +1,65 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.8rem;
+    line-height: 1em;
+}
+
+.header {
+    background: black;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegation ul li {
+    display: inline-block;
+}
+
+.navegation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+
+.navegation ul li a:hover {
+    color: red;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(209, 206, 206)
+}
+
