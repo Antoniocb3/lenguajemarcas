@@ -1,0 +1,40 @@
+Cuestionario
+//Realizado por Antonio Carmona Bascón
+//Pregunta1:Un lenguaje de marcas es..{
+~un procesador de textos mas sencillo
+=una forma de codificar un documento que incorpora etiquetas o marcas que contienen información adicional sobre la estructura del texto
+~ un lenguaje de programación
+~todas son correctas
+}
+
+
+//Pregunta2:JS Bien es: {
+~ un lenguaje de programación
+~un editor de textos
+=una herramienta de depuración
+~todas son correctas
+}
+
+
+//Pregunta3:¿Cuál es una caracteristica de los editores de textos? {
+~Copiar
+~Cortar
+~Pegar
+=Todas son correctas
+}
+
+
+//Pregunta4:¿Qué lenguaje de Marca es más actual? {
+=HTML5
+~XHTML
+~Latex
+~Ninguna es correcta
+}
+
+
+//Pregunta5:Cuales son las siglas de la palabra "URL"
+=Uniform Resource Locator
+~Unreal Real Laptop
+~Undertaker Realter Light
+~Ninguna es correcta
+}
