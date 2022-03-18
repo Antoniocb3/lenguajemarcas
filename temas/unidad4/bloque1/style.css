@@ -1,0 +1,26 @@
+.colorfondo {
+    background-color: gray;
+}
+
+.borderelleno1 {
+    margin:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:20px;
+	padding-right:20px;
+	border:1px solid black;
+	width:160px;
+    text-align: center;
+
+}
+
+.borderelleno2 {
+    margin:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:20px;
+	padding-right:20px;
+	border:20px solid gray;
+	width:160px;
+    text-align: center;
+}
