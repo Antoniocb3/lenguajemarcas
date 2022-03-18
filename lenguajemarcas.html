@@ -4,6 +4,41 @@
         <meta charset="UTF-8"/>
         <title>Mi primera página web</title>
         <link rel="stylesheet" href="css/cabecera.css">
+        <style>
+            .imgpersonal {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 0.2s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+           .logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+        </style>
     </head>
     <body>
         <header class="header">
@@ -16,6 +51,10 @@
                         <li><a href="temas/unidad2/index.html">Unidad 2</a></li>
                         <li><a href="temas/unidad3/index.html">Unidad 3</a></li>
                         <li><a href="temas/unidad4/index.html">Unidad 4</a></li>
+                        <li><a href="temas/unidad5/index.html">Unidad 5</a></li>
+                        <li><a href="recetasabuela/index.html" target="_blank">Recetas</a></li>
+
+
                     </ul>
                 </nav>
             </div>
@@ -24,7 +63,7 @@
         <main class="main">
             <div class="container">
                 <h1>Antonio Carmona Bascón</h1>
-        <img src="Fotocurriculum.jpg" width="120" height="140">
+        <img src="Fotocurriculum.jpg" width="120" height="140" class="imgpersonal">
     
             </div>
         </main>
