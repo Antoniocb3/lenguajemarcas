@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+    border: 1px black;
+    color: black;
+}
+
+.main {
+    background-color: gray;
+}
+
+.header {
+    background-color: yellow;
+}
+
+.section {
+    background-color: orange;
+}
+
+.aside {
+    background-color: cyan;
+}
+
+.footer {
+    background-color: blue;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 medias</title>
+    <style>
+main, header, section, aside, footer {
+        margin: 0;
+        border: 1px black;
+        color: black;
+        padding: 1.25rem;
+        display: block;
+    }
+.main {
+    background-color: gray;
+}
+.header {
+    background-color: yellow;
+}
+.hero {
+    background-color: red;
+}
+.content {
+    background-color: orange;
+}
+.sidebar {
+    background-color: cyan;
+}
+.footer {
+    background-color: blue;
+}
+
+@media screen and (min-width:640px) {
+    .contenedor {display: flex;}}
+    .content{flex:1;background: orange;}
+    .sidebar{flex: 0;background: cyan;}
+    .footer, .sidebar {border: 1px solid black}
+    .footer{background-color: blue;}
+    
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        Main
+        <header class="header">
+            Header: <br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </header>
+        
+        <section class="hero">
+            Hero: <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto reprehenderit qui maiores, eqsd qeq.
+        </section>
+        <div class="contenedor">
+        <section class="content">
+            Content: <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto reprehenderit qui maiores, eqsd qeq.
+        </section>
+        <aside class="sidebar">
+            SideBar: <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nesciunt earum voluptate repellendus commodi quia tempore.
+        </div>
+        </aside>
+        <footer class="footer">
+            Footer: <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </footer>
+    </main>  
+</body>
+</html> 
