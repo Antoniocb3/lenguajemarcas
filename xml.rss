@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>Noticia 1</title>
+<link></link>
+<description>Descripción de la noticia 1</description>
+<item>
+ <title>Noticia 2</title>
+ <link>https://www.midominio.com/noticia2.html</link>
+ <description>Descripción de la noticia 2</description>
+ <pubDate>Lunes, 18 de marzo de 2019</pubDate>
+</item>
+</channel>
+</rss>
