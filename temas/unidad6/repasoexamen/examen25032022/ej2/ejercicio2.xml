@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding ="UTF-8"?>
+<!DOCTYPE cursos SYSTEM "ejercicio2.dtd">
+
+<cursos>
+    <titulo>Titulo ejercicio2</titulo>
+
+    <modulo>
+        <titulo>La nueva obra</titulo>
+        <ponente codigo_empleado="13">
+            <nombre>Antonio</nombre>
+            <email>antoniocb987@gmail.com</email>
+        </ponente>
+        <FechaInicio>13/10/2022</FechaInicio>
+        <FechaFinal>16/12/2023</FechaFinal>
+    </modulo>
+    
+    <modulo>
+        <titulo>Otra obra</titulo>
+        <ponente codigo_empleado="17">
+            <nombre>Rafa</nombre>
+            <email>antoniocb953@gmail.com</email>
+        </ponente>
+        <FechaInicio>14/06/1998</FechaInicio>
+        <FechaFinal>19/10/2002</FechaFinal>
+
+    </modulo>
+</cursos>

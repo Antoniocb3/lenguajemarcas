@@ -1,0 +1,9 @@
+<!ELEMENT cursos (titulo, modulo+) >
+<!ELEMENT modulo (titulo, ponente+, FechaInicio, FechaFinal)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ponente (nombre, email) >
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST ponente codigo_empleado CDATA #REQUIRED >
+<!ELEMENT FechaInicio (#PCDATA)>
+<!ELEMENT FechaFinal (#PCDATA)>

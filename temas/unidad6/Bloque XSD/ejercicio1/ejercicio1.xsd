@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3org/2001/XMLSchema"
+targetNamespace="http://www.midominio.es/persona"
+elementFormDefault="qualified"
+attributeFormDefault="qualified">
+
+<xs:element name="persona">
+<xs:complexType>
+    <xs:sequence>
+        <xs element name="nombre" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs element name="direccion" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+
+
+</xs:element>
+</xs:schema>

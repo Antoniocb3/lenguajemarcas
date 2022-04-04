@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companiaav xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicio1.xsd">
+
+
+    <compania>
+        <aviones>
+            <codav>050</codav>
+            <modeloav>Airbus A320</modeloav>
+            <numpas>189</numpas>
+        </aviones>
+        <aviones>
+            <codav>051</codav>
+            <modeloav>Airbus A319</modeloav>
+            <numpas>50</numpas>
+        </aviones>
+
+        <aeropuerto>
+            <codaer>032</codaer>
+            <ciudad>Valencia</ciudad>
+            <pais>España</pais>
+        </aeropuerto>
+        <aeropuerto>
+            <codaer>032</codaer>
+            <ciudad>Murcia</ciudad>
+            <pais>España</pais>
+        </aeropuerto>
+
+        <ruta>
+            <codru>060</codru>
+            <aesalida>Valencia</aesalida>
+            <aellegada>Murcia</aellegada>
+            <numvuelo>AA4312</numvuelo>
+            <hdespegue>09:00</hdespegue>
+            <haterrizaje>12:00</haterrizaje>
+            <avionutil>Airbus A319</avionutil>
+        </ruta>
+    </compania>
+
+
+
+
+
+
+
+
+
+
+
+
+</companiaav>

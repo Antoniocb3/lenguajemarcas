@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    <xs:element name="companiaav">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="compania">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="aviones" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="codav"/>
+                                        <xs:element name="modeloav">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                   <xs:enumeration value="Airbus A319"/>
+                                                   <xs:enumeration value="Airbus A320"/>
+                                                   <xs:enumeration value="Boeling 757"/>
+                                                   <xs:enumeration value="Boeling 777"/>
+                                                </xs:restriction>
+                                             </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="numpas">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:integer">
+                                                <xs:minInclusive value="50"/>
+                                                <xs:maxInclusive value="300"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:sequence>
+                                <xs:element name="aeropuerto" minOccurs="2" maxOccurs="unbounded">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="codaer"/>
+                                            <xs:element name="ciudad"/>
+                                            <xs:element name="pais"/>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                    
+                                </xs:element>
+                                <xs:sequence>
+                                    <xs:element name="ruta">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="codru"/>
+                                                <xs:element name="aesalida"/>
+                                                <xs:element name="aellegada"/>
+                                                <xs:element name="numvuelo">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                        <xs:pattern value="[A-Z]{2}[0-9]{4}"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                                <xs:element name="hdespegue"/>
+                                                <xs:element name="haterrizaje"/>
+                                                <xs:element name="avionutil">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                          <xs:enumeration value="Airbus A319"/>
+                                                          <xs:enumeration value="Airbus A320"/>
+                                                          <xs:enumeration value="Boeling 757"/>
+                                                          <xs:enumeration value="Boeling 777"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:sequence>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    </xs:schema>

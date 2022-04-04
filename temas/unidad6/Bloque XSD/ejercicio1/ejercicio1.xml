@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<p:persona
+    xmlns:p="http://www.midominio.es/persona"
+    xmlns:xsi="http://www.w3org/2001/XMLSchema-instance"
+    xmlns:schemaLocation="http://www.midominio.es/persona ejercicio1.xsd"
+    >
+    <p:nombre>John</p:nombre>
+    <p:direccion>John</p:direccion>
+</p:persona>
