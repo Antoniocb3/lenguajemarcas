@@ -35,9 +35,18 @@
         </entry>
         <entry>
         <title>Ejercicio 7 XML</title>
-        <id>httphttps://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio7/ejerciciocasa1.xml</id>
+        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio7/ejerciciocasa1.xml</id>
         <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio7/ejerciciocasa1.xml"></link>
         <updated>2006-03-04T15:12:17Z</updated>
+        <author>
+        <name>Antonio Carmona Bascon</name>
+        </author>
+        </entry>
+        <entry>
+        <title>Ejercicio 8 XML-XSD</title>
+        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio8/ejercicio8.xml</id>
+        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio8/ejercicio8.xml"></link>
+        <updated>20016-03-04T15:12:17Z</updated>
         <author>
         <name>Antonio Carmona Bascon</name>
         </author>
