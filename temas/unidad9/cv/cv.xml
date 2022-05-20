@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cv.xsl" type="text/xsl"?>
+
+ <curriculum_vitae>
+    <datos_personales>
+        <nombre>Antonio</nombre>
+        <apellidos>Carmona Bascon</apellidos>
+        <fecha_nacimiento>30/12/2003</fecha_nacimiento>
+        <imagen_personal>img.jgp</imagen_personal>
+        <blog_personal></blog_personal>
+        <rss>
+            <red_social>
+              <logo_redsocial>twitter.png</logo_redsocial>
+              <nombre_redsocial>antoniocb3</nombre_redsocial>
+              <enlace_redsocial></enlace_redsocial>
+            </red_social>   
+
+            <red_social>
+                <logo_redsocial>twitter.png</logo_redsocial>
+                <nombre_redsocial>antoniocb3</nombre_redsocial>
+                <enlace_redsocial></enlace_redsocial>
+              </red_social> 
+
+              <red_social>
+                <logo_redsocial>twitter.png</logo_redsocial>
+                <nombre_redsocial>antoniocb3</nombre_redsocial>
+                <enlace_redsocial></enlace_redsocial>
+              </red_social> 
+
+              <red_social>
+                <logo_redsocial>twitter.png</logo_redsocial>
+                <nombre_redsocial>antoniocb3</nombre_redsocial>
+                <enlace_redsocial></enlace_redsocial>
+              </red_social> 
+
+        </rss>
+ </datos_personales>
+
+
+ <formacion_academica>
+    <titulos>
+      <titulo>  
+        <nombre_titulo>ESO</nombre_titulo>
+        <lugar_obtenciontitulo>IES Profesor Eloy Vaquero. Montalbán de Córdoba</lugar_obtenciontitulo>
+        <año_obtencion_titulo>2015-2019</año_obtencion_titulo>
+      </titulo>  
+      <titulo>  
+        <nombre_titulo>CFGM</nombre_titulo>
+        <lugar_obtenciontitulo> IES Profesor Tierno Galván. La Rambla, Córdoba</lugar_obtenciontitulo>
+        <año_obtencion_titulo>2019-2021</año_obtencion_titulo>
+      </titulo>  
+    </titulos>
+
+    <idiomas>
+
+        <idioma>
+          <nombre_idioma>Ingles</nombre_idioma>
+          <niveles>
+              <reading>B1</reading>
+              <listening>B1</listening>
+              <speaking>B1</speaking>
+          </niveles>
+        </idioma>
+
+        <idioma>
+          <nombre_idioma>Frances</nombre_idioma>
+          <niveles>
+            <reading>B1</reading>
+            <listening>B1</listening>
+            <speaking>B1</speaking>
+        </niveles>
+        </idioma>
+
+    </idiomas>
+
+
+ </formacion_academica>
+
+
+ <experiencia_laboral>
+    <trabajos>
+        <trabajo fecha_inicio="01/04/2022" fecha_final="29/04/2022">
+          <nombre_trabajo>Culinario gastronómico</nombre_trabajo>
+          <descripcion>He sido catador en masterchef</descripcion>
+        </trabajo>
+        <trabajo>
+            <nombre_trabajo>Astronauta</nombre_trabajo>
+            <descripcion>He ido al espacio varias veces</descripcion>
+          </trabajo>
+    </trabajos>
+
+ </experiencia_laboral>
+
+</curriculum_vitae>
