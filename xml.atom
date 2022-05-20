@@ -25,25 +25,9 @@
     </author>
     </entry>
     <entry>
-        <title>Ejercicio 3 XML</title>
-        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio3/index.xml</id>
-        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio3/index.xml"></link>
-        <updated>2003-03-04T15:12:17Z</updated>
-        <author>
-        <name>Antonio Carmona Bascon</name>
-        </author>
-        </entry>
-         <title>Ejercicio 4 XML</title>
-        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio4/ej4.xml</id>
-        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio4/ej4.xml"></link>
-        <updated>2003-03-04T15:12:17Z</updated>
-        <author>
-        <name>Antonio Carmona Bascon</name>
-        </author>
-        </entry>
-         <title>Ejercicio 5 XML</title>
-        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio5/ej5.xml</id>
-        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/ejercicio5/ej5.xml"></link>
+        <title>Ejercicio 2 XML</title>
+        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio3/ejercicio3.xml</id>
+        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio3/ejercicio3.xml"></link>
         <updated>2003-03-04T15:12:17Z</updated>
         <author>
         <name>Antonio Carmona Bascon</name>
