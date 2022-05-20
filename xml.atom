@@ -33,30 +33,5 @@
         <name>Antonio Carmona Bascon</name>
         </author>
         </entry>
-        <entry>
-        <title>Ejercicio 4 XML</title>
-        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio4/ejercicio4.xml</id>
-        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio4/ejercicio4.xml"></link>
-        <updated>2006-03-04T15:12:17Z</updated>
-        <author>
-        <name>Antonio Carmona Bascon</name>
-        </author>
-        <entry>
-        <title>Ejercicio 7 XML</title>
-        <id>https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio7/ejercicio7.xml</id>
-        <link href="https://antoniocb3.github.io/lenguajemarcas/temas/unidad6/Bloque%20XSD/ejercicio7/ejercicio7.xml"></link>
-        <updated>2006-03-04T15:12:17Z</updated>
-        <author>
-        <name>Antonio Carmona Bascon</name>
-        </author>
-        </entry>
-        <entry>
-        <title>Ejercicio 8 XML</title>
-        <id>https://github.com/Antoniocb3/lenguajemarcas/blob/main/temas/unidad6/Bloque%20XSD/ejercicio8/ejercicio8.xml</id>
-        <link href="https://github.com/Antoniocb3/lenguajemarcas/blob/main/temas/unidad6/Bloque%20XSD/ejercicio8/ejercicio8.xml"></link>
-        <updated>2007-03-04T15:12:17Z</updated>
-        <author>
-        <name>Antonio Carmona Bascon</name>
-        </author>
-        </entry>
+        
     </feed>
